@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>DataViz Midterm ScatterPlot</title>
+
+<style>
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 ;
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .eight {
+    color: #e6194B;
+    font-weight: bold;
+  }
+
+  .six {
+    color: #3cb44b;
+    font-weight: bold;
+  }
+
+  .four {
+    color: #ffe119;
+    font-weight: bold;
+  }
+
+  .five {
+    color: #4363d8;
+    font-weight: bold;
+  }
+
+  .three {
+    color: #911eb4;
+    font-weight: bold;
+  }
+
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 ;
+    font-size: 14px;
+    line-height: 8px;
+    width: 990px;
+    margin: auto;
+    overflow:hidden;
+  }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #404040;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  opacity: 0.5;
+}
+
+.container {
+  width: 500px;
+  float:left;
+  margin: 50px 0 0 0;
+}
+
+
+.div2 {
+  width: 280px;
+  float:right;
+  margin: 200px 0 0 50px;
+
+}
+
+
+</style>
+<body>
+   <div class = "container">
+     <h1> More horsepower, less MPG. </h1>
+     <p> Horsepower and miles per galon are negatively correlated. </p>
+     <script src="http://d3js.org/d3.v3.min.js"></script>
+     <script src="ScatterPlot.js"></script>
+   </div>
+   <div class = "div2">
+     <p>Horsepower and miles per galon are negatively correlated. Cars with <span class = "eight" >8 cylinders</span> seem to be the ones
+     that perform better in terms of fuel consumed per mile, whereas those with <span class = "four" >4 cylinders</span> are usually the ones that consume more fuel per mile
+     show a decrease in their horsepower. <span class = "six" >6-cylinder</span> cars make up the average of the last two. The odd-one-outs: cars
+     with <span class = "five" >5 cylinders</span> and <span class = "three" >3 cylinders</span>.</p>
+   </div>
+
+
+
+
+
+
+</body>
+</html>
